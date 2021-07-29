@@ -43,7 +43,7 @@ public class TestClass implements Runnable{
     public void run() {
         test2();
     }
-
+// 测试的案例代码
     @Test
     public void test3(){
         new Thread(this).start();
